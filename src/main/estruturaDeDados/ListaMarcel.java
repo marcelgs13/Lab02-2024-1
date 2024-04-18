@@ -167,11 +167,11 @@ public class ListaMarcel implements Lista{
         removeIndice(0);
     }
 
-   @Override
-public void removeFim() {
-    if (indice_final > 0) {
-        indice_final--;
+    @Override
+    public void removeFim() {
+        if (indice_final > 0) {
+            indice_final--;
+        }
     }
-}
-
+    
 }
